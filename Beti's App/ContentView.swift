@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Button(action:
+            {
+                print("clicked")
+        }) {
+                Text("Click me!")
+                    .padding()
+                    .font(.title)
+                    .border(Color.blue, width: 5)
+        }
+            .offset(y:150)
     }
 }
 
