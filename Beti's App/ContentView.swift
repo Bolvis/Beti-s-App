@@ -16,7 +16,7 @@ struct ContentView: View {
             {
                 self.showMessage.toggle()
         }) {
-                Text("Click me!")
+                Text("Kliknij mnie!")
                     .padding()
                     .font(.title)
                     .border(Color.blue, width: 5)
